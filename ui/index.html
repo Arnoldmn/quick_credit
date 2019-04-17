@@ -18,7 +18,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Loans</a></li>
+                <li><a href="signup.html">Signup</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -40,9 +40,9 @@
             </article>
             <article class="rightContent">
                 <content>
-                    <form action="dob.html" method="POST">
+                    <form name="formAmount" onsubmit="return formValidation()" action="/dob.html" method="POST">
                         <h2>Enter loan amount</h2>
-                        <input type="text" placeholder="Enter your loan rate..."> <br>
+                        <input type="text" name="amount" placeholder="Enter your loan rate..."> <br>
                         <select name="" id="">
                             <option value="">What's the money for?</option>
                             <option value="">Tuition fees</option>
@@ -51,7 +51,7 @@
                             <option value="">Family emergencies</option>
                             <option value="">Capital boosting</option>
                         </select>
-                        <button type="submit">Submit</button>
+                        <button type="submit" value="send" name="Submit">Submit</button>
                     </form>
                 </content>
 
@@ -96,6 +96,7 @@
     <footer class="mainFooter">
         <p>Copyright &copy; 2019 QuickCredit Co.</p>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>

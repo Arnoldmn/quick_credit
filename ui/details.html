@@ -27,19 +27,31 @@
     <div class="mainContent">
         <div class="content">
             <article class="dobContent">
-                <h2>What's your date of birth?</h2>
                 <content>
-                    <form action="money.html" method="POST">
+                    <form name="formDetails" action="address.html" method="POST">
                         <table>
                             <tr>
                                 <td>
-                                    <p>Date of birth?</p>
+                                    <h3>What's your name?</h3>
+                                    <p>This information is needed to corraborate with your. bank details</p>
                                 </td>
                             </tr>
                             <tr>
-                                <td><input type="date"></td>
+                                <td>
+                                    <p>First name</p>
+                                </td>
                             </tr>
-
+                            <tr>
+                                <td><input type="text" name="firstName" placeholder="John"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Last name</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="lastName" placeholder="Doe"></td>
+                            </tr>
                             <tr>
                                 <td><button>Next ></button></td>
                             </tr>
