@@ -112,31 +112,38 @@ h2{
     border-radius: 5px;
 }
 
-table{
+table {
+    width: 100%;
     margin: 0 auto;
-}
-table input[type=address]{
-    color: #acacac;
-    text-transform: uppercase;
-    font-size: 20px;
-    white-space: initial;
+    background: #ffffff;
+  }
+  table h1{
+      padding: 10px;
+      margin-top: 20px;
+  }
+  th {
+    background: #4DD0E1;
+    height: 54px;
     text-align: center;
-    height: 45px;;
-    width: 450px;
+    color: #000000;
     border: none;
-    border-bottom: 2px solid #acacac;
-}
-table input[type=text]{
-    color: #acacac;
-    text-transform: uppercase;
-    font-size: 20px;
-    white-space: initial;
-    text-align: center;
-    height: 45px;;
-    width: 450px;
-    border: none;
-    border-bottom: 2px solid #acacac;
-}
+    border-bottom: 2px solid #4DD0E1;
+    transition: all 0.2s;
+  }
+  tr {
+    border-bottom: 2px solid #4DD0E1;
+  }
+  tr:last-child {
+    border-bottom: 0px;
+  }
+  td {
+    border-right: 1px solid #cccccc;
+    padding: 10px;
+    transition: all 0.2s;
+  }
+  td:last-child {
+    border-right: 0px;
+  }
 input[type="email"]{
   padding: 10px;
   width: 100%;
