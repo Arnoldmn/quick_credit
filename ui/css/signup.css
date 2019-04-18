@@ -4,14 +4,17 @@
 
 body {
   background-color: #f1f1f1;
+  /*background-image: url("../cellphone-device-electronics-870903.jpg");*/
+  background-size: cover;
 }
 
 #regForm {
-  background-color: #e1e1e1;
+  background-color: #f1f1f1;
   margin: 100px auto;
+  opacity: 0.8;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  padding: 40px;
-  width: 30%;
+  padding: 30px;
+  width: 37%;
   min-width: 300px;
 }
 
@@ -23,11 +26,29 @@ input {
   padding: 10px;
   width: 100%;
   font-size: 17px;
-  border-bottom: 2px solid #acacac;
   border: none;
+  border-bottom: 2px solid #acacac;
+}
+select{
+  text-align: center;
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid #acacac;
+  width: 100%;
+  margin-top: 5px;
 }
 
-
+input[type=date] {
+  color: #acacac;
+  text-transform: uppercase;
+  font-size: 20px;
+  white-space: initial;
+  height: 45px;;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #acacac;
+}
 input.invalid {
   background-color: #ffdddd;
 }
@@ -47,7 +68,44 @@ button {
   font-size: 17px;
   cursor: pointer;
 }
-
+.mainheader nav{
+  font-size: 20px;
+  text-decoration: none;
+  padding-top: 30px;
+  background-color: #4DD0E1;
+  height: 120px;
+  color: #ffff;
+  font-weight: bold;
+}
+a{
+  color: #ffff;
+  text-decoration: none;
+}
+.mainheader nav ul{
+  text-align: center;  
+  list-style-type: none;
+  
+}
+.mainheader nav ul li{
+  float: right;
+  display: inline-block;
+}
+.mainheader nav a:link{
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 25px;
+  height: 50px;
+  padding-top: 10px;
+}
+h1 { 
+  font-size: 50px;
+  margin-left: 25px;
+  margin-top: 10px;
+  color: #acacac;
+  float: left;
+  display: inline-block;
+  
+}
 button:hover {
   opacity: 0.8;
 }
@@ -74,4 +132,24 @@ button:hover {
 
 .step.finish {
   background-color: #4CAF50;
+}
+.body{
+  width: 80%;
+  margin: 0 auto;
+}
+.mainFooter{
+  width: 100%;
+  float: left;
+  clear: both;
+  font-size: 20px;
+  height: 150px;
+  background-color:#4DD0E1;
+  margin: 2% 0;
+}
+.mainFooter p{
+  padding-top: 30px;
+  text-align: center;
+  width: 92%;
+  margin: 10px auto;
+  color: #ffffff;
 }

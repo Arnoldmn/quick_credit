@@ -6,8 +6,21 @@
 
 </style>
 
-<body>
+<body class="body">
+    <header class="mainheader">
+        <h1><a href="#">QuickCredit</a></h1>
+        <nav>
 
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="apply_loan.html">Apply for Loan</a></li>
+                <!-- <a href="signup.html">Signup</a></li> -->
+                <li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <form id="regForm" action="index.html">
         <h1>Register here</h1>
@@ -15,6 +28,13 @@
         <div class="tab">First & last names
             <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
             <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
+            <p>
+                <select name="" id="">
+                    <option value="">Signup as loanee or admin?</option>
+                    <option value="">Admin</option>
+                    <option value="">Loannee</option>
+                </select>
+            </p>
         </div>
         <div class="tab">Contact Info
             <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
@@ -48,7 +68,9 @@
     <script src="js/index.js">
 
     </script>
-
+    <footer class="mainFooter">
+        <p>Copyright &copy; 2019 QuickCredit Co.</p>
+    </footer>
 </body>
 
 </html>

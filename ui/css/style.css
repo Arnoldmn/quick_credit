@@ -1,5 +1,7 @@
 body{
-    background-color: #e1e1e1;
+    background-color: #f1f1f1;
+    /*background-image: url("../cellphone-device-electronics-870903.jpg");*/
+    background-size: cover; 
     color: #000305;
     font-size: 87.5%;
     background-repeat: no-repeat;
@@ -13,6 +15,7 @@ a{
 }
     
 .mainheader nav{
+    width: 100%;
     font-size: 20px;
     text-decoration: none;
     padding-top: 30px;
@@ -35,7 +38,7 @@ h2{
     font-size: 17px;
 }
  h3{
-    margin-top: 5px;
+    margin-top: 20px;
     text-align: center;
     color: blueviolet;
     font-size: 17px;
@@ -59,6 +62,7 @@ h2{
     padding-top: 10px;
 }
 .body{
+    opacity: .6;
     margin: 0 auto;
     width: 80%;
     clear: both;
@@ -133,12 +137,21 @@ table input[type=text]{
     border: none;
     border-bottom: 2px solid #acacac;
 }
-input[type=text] {
-    text-align: center;
-    height: 30px;;
-    width: 250px;
-    border: none;
-    border-bottom: 2px solid #acacac;
+input[type="email"]{
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border:none;
+  border-bottom: 2px solid #4DD0E1;
+  
+}
+input[type=password] {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border: none;
+  border-bottom: 2px solid #4DD0E1;
+
   }
   
   input[type=date] {
@@ -153,11 +166,11 @@ input[type=text] {
     border-bottom: 2px solid #acacac;
   }
   select{
-      text-align: center;
-      height: 30PX;
-      border: none;
-      width: 250PX;
-      margin-top: 5px;
+    padding: 10px;
+    width: 286px;
+    font-size: 17px;
+    border:none;
+    border-bottom: 2px solid #4DD0E1;
   }
   table p{
       color: #acacac;
@@ -177,16 +190,13 @@ input[type=text] {
 
   }
   button {
-    background: #4DD0E1;
+    background-color: #4DD0E1;
+    color: #000000;
     font-weight: bold;
-    height: 30px;;
-    width: 250px;
     border: none;
-    border-radius: 0px;
-    margin-top: 8px;
-    color: #000305;
-    font-size: 15px;
-
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
   }
 .mainFooter{
     width: 100%;

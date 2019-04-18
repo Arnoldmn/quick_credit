@@ -40,20 +40,34 @@
             </article>
             <article class="rightContent">
                 <content>
-                    <form name="formAmount" onsubmit="return formValidation()" action="/dob.html" method="POST">
-                        <h2>Enter loan amount</h2>
-                        <input type="text" name="amount" placeholder="Enter your loan rate..."> <br>
-                        <select name="" id="">
-                            <option value="">What's the money for?</option>
-                            <option value="">Tuition fees</option>
-                            <option value="">Home renovation</option>
-                            <option value="">Medical expenses</option>
-                            <option value="">Family emergencies</option>
-                            <option value="">Capital boosting</option>
-                        </select>
-                        <button type="submit" value="send" name="Submit">Submit</button>
+                    <form id="regForm" action="index.html">
+
+
+                        <div class="tab">Login here
+                            <hr>
+                            <p><input placeholder="E-mail..." oninput="this.className = ''" name="email" type="email">
+                            </p>
+                            <p><input placeholder="Password" oninput="this.className = ''" name="pword" type="password">
+                            </p>
+
+                            <p>
+                                <select name="" id="">
+                                    <option value="">Login as?</option>
+                                    <option value="">Admin</option>
+                                    <option value="">Loannee</option>
+                                </select>
+                            </p>
+                            <p>Don't have an account yet ? <a href="signup.html">Sign up</a> </p>
+
+                        </div>
+                        <div style="overflow:auto;">
+                            <div style="float:right;">
+                                <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+                                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+                            </div>
+                        </div>
+
                     </form>
-                </content>
 
             </article>
         </div>
