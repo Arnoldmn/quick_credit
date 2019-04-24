@@ -48,10 +48,13 @@ h1 a{
   text-decoration: none;
   color: #ffffff;
 }
+p a{
+  color: #000000;
+}
 #regForm {
   background-color: #f1f1f1;
   margin: 30px auto;
-  /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  
   padding: 30px;
   width: 37%;
   min-width: 300px;
